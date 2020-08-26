@@ -1,8 +1,7 @@
 ## Pause Azure Synapse using the Rest API and Managed Identity
 
-{
-    "name": "Pause Synapse",
-    "properties": {
+
+"properties": {
         "activities": [
             {
                 "name": "Pause AzureSynapse",
@@ -30,5 +29,3 @@
         "lastPublishTime": "2020-08-25T11:04:13Z"
     },
     "type": "Microsoft.DataFactory/factories/pipelines"
-}
-
