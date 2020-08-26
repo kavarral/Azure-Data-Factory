@@ -2,7 +2,7 @@
 
 
 "properties": { <br/>
-        "activities": [ <br/>
+	"activities": [ <br/>
             { <br/>
                 "name": "Pause AzureSynapse", <br/>
                 "type": "WebActivity", <br/>
