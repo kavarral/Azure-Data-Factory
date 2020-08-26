@@ -16,7 +16,7 @@
                 }, <br/>
                 "userProperties": [], <br/>
                 "typeProperties": { <br/>
-                    "url": "https://management.azure.com/subscriptions/<add your subscription ID>/resourceGroups/<add your resource group>/providers/Microsoft.Sql/servers/<add your server>/databases/<add your database>/pause?api-version=2017-10-01-preview", <br/>
+                    "url": "https://management.azure.com/subscriptions/&lt;add your subscription ID>/resourceGroups/&lt;add your resource group>/providers/Microsoft.Sql/servers/&lt;add your server>/databases/&lt;add your database>/pause?api-version=2017-10-01-preview", <br/>
                     "method": "POST", <br/>
                     "authentication": { <br/>
                         "type": "MSI", <br/>
