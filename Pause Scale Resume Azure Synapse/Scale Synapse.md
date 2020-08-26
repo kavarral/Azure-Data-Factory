@@ -1,7 +1,5 @@
  ## Scale Synapse using the Rest API using Managed Identity
  
- {
-    "name": "Scale Synapse",
     "properties": {
         "activities": [
             {
@@ -38,5 +36,4 @@
         "lastPublishTime": "2020-08-25T12:46:28Z"
     },
     "type": "Microsoft.DataFactory/factories/pipelines"
-}
 
