@@ -1,4 +1,4 @@
-## Resume Azure Synapse using the Rest API using Managed Identify
+## Resume Azure Synapse using the Rest API and Managed Identity 
 
 {
     "name": "Resume Synapse",
