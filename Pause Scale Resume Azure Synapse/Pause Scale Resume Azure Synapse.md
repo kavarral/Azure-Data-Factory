@@ -1,6 +1,6 @@
 ## Pause, Resume and Scale Azure Synapse Pool using Azure Data Factory
 
-You can Pause, Scale and Resume Azure Synapse Analytics using a variaty of methods. This method requires the least amount of effort in my opinion and calls the REST API to Pause, Resume or Scale Azure Synapse Analytics using a simple Web Activity in Azure Data Factory. 
+You can Pause, Scale and Resume Azure Synapse Analytics using a variety of methods. This method requires the least amount of effort in my opinion and calls the REST API to Pause, Resume or Scale Azure Synapse Analytics using a simple Web Activity in Azure Data Factory. 
 
 This example uses a Managed Service Identity.
 In order for the REST API to execute successfully, the Azure Data Factory Managed Service requires permission.  
