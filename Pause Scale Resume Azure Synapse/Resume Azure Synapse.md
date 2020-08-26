@@ -1,8 +1,6 @@
 ## Resume Azure Synapse using the Rest API and Managed Identity 
 
-{
-    "name": "Resume Synapse",
-    "properties": {
+"properties": {
         "activities": [
             {
                 "name": "Resume AzureSynapse",
@@ -30,5 +28,3 @@
         "lastPublishTime": "2020-08-25T11:04:13Z"
     },
     "type": "Microsoft.DataFactory/factories/pipelines"
-}
-
