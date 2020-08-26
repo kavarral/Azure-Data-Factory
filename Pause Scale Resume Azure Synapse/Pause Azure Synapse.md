@@ -1,4 +1,4 @@
-## Pause Azure Synapse using the Rest API
+## Pause Azure Synapse using the Rest API and Managed Identity
 
 {
     "name": "Pause Synapse",
