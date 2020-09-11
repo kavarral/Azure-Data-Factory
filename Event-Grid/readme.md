@@ -30,11 +30,13 @@ You can refer to this document for more detail
 8.) In the source dataset, pass the parameters dynamically to the parameters from the pipeline as follows: 
 <img src="https://github.com/kavarral/Images/blob/master/EventGrid_SouceDataset.PNG?raw=true" />
 
-9.) Add the Trigger to the Pipeline. When you add the trigger you will be prompted to enter a value for the parameters will be passed to the pipeline. Add the following values for the folderPath and fileName parameters
+9.) Configure the Sink. 
+
+10.) Add the Trigger to the Pipeline. When you add the trigger you will be prompted to enter a value for the parameters will be passed to the pipeline. Add the following values for the folderPath and fileName parameters
 
 <img src="https://github.com/kavarral/Images/blob/master/TriggerParameters.PNG?raw=true" />
 
-9.) Upload or copy and paste a file into the container and/or folder you specified to test 
+11.) Upload or copy and paste a file into the container and/or folder you specified to test 
 
 
 
