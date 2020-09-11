@@ -1,5 +1,13 @@
 ## Using Event Grid to load files into Azure Data Factory
 
+```
+! NOTE 
+The Event Trigger currently supports only Azure Data Lake Storage Gen2 and General-purpose version 2 storage accounts. 
+You must have at least Owner access on the storage account. 
+Due to an Azure Event Grid limitation, Azure Data Factory only supports a maximum of 500 event triggers per storage 
+account.
+```
+
 A data factory pipeline is triggered when an event a blob is created in Azure Storage. This example uses Azure Storage Gen2 (without hierarchical namespaces enabled)
 
 1.) Create the container and folder path in your Azure Storage where you would like to drop or create the files. This example uses a container called inbound and a folder called jobs.
@@ -37,6 +45,7 @@ You can refer to this document for more detail
 <img src="https://github.com/kavarral/Images/blob/master/TriggerParameters.PNG?raw=true" />
 
 11.) Upload or copy and paste a file into the container and/or folder you specified to test 
+
 
 
 
