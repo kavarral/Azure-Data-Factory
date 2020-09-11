@@ -5,7 +5,9 @@ A data factory pipeline is triggered when an event a blob is created in Azure St
 
 1.) Create the container and folder path in Azure Storage where you would like to create the files. This example uses a container called inbound and a folder called jobs.
 2.) Create a new trigger and set the container and folder path.  This sample will only pick up files ending with .parquet as depicted in the Blob Path Ends with criteria
-3.) When using Event Grid with Azure Data Factory,  you can only trigger on two events: namely Blob Created and Blob Deleted.  This sample is using Blob Created
+3.) When using Event Grid with Azure Data Factory,  you can only trigger on two events: namely Blob Created and Blob Deleted.  This sample will only trigger when a blob file is Created
+
+![image](https://github.com/kavarral/Images.git/ADFTrigger.png)
 
 
 
